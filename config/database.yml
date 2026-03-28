@@ -90,6 +90,7 @@ production:
     database: nest_production
     username: nest
     password: <%= ENV["NEST_DATABASE_PASSWORD"] %>
+    host: murder-db
   cache:
     <<: *primary_production
     database: nest_production_cache
