@@ -1,0 +1,22 @@
+<footer id="footer">
+  <div class="social">
+    <%= link_to "https://twitter.com/perkycrow1", target: "_blank" do %>
+      <%= image_tag "icon_twitter.png", alt: "Twitter" %>
+    <% end %>
+    <%= link_to "https://github.com/PerkyCrow", target: "_blank" do %>
+      <%= image_tag "icon_github.png", alt: "GitHub" %>
+    <% end %>
+    <%= link_to "https://www.instagram.com/perkycrow/", target: "_blank" do %>
+      <%= image_tag "icon_instagram.png", alt: "Instagram" %>
+    <% end %>
+    <%= link_to "https://discord.gg/ppTB595Yec", target: "_blank" do %>
+      <%= image_tag "icon_discord.png", alt: "Discord" %>
+    <% end %>
+  </div>
+
+  <p>
+    <%= link_to "Legal notice", legal_notice_path %> |
+    <%= link_to "Source code", "https://github.com/PerkyCrow/nest", target: "_blank" %> |
+    <%= link_to "Sitemap", sitemap_path(format: :xml) %>
+  </p>
+</footer>

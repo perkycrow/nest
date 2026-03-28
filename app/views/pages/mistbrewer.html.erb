@@ -1,0 +1,63 @@
+<% content_for :url, mistbrewer_url %>
+<% content_for :title, "The Mistbrewer" %>
+<% content_for :description, "Discover the mysterious world of The Mistbrewer, a distinctive Match-3 style puzzle game. Dive into this relaxing strategy game, designed to be instantly accessible while providing a depth of strategy for those looking to delve further." %>
+<% content_for :keywords, "The Mistbrewer, Match-3, puzzle, game, strategy, relaxing, indie game, Perky Crow" %>
+<% content_for :image, asset_url("mistbrewer_screenshot.jpg") %>
+
+<section id="mistbrewer" class="game_page">
+  <h2>
+    <%= image_tag "mistbrewer_title.png", alt: "The Mistbrewer", title: "The Mistbrewer", class: "logo" %>
+  </h2>
+
+  <h3>About this game</h3>
+
+  <p>Discover the mysterious world of <strong>The Mistbrewer</strong>, a distinctive <strong>Match-3 style puzzle game</strong>, designed to be instantly accessible while providing a depth of strategy for those looking to delve further.</p>
+
+  <div class="screenshot">
+    <%= image_tag "mistbrewer_screenshot.jpg", alt: "The Mistbrewer", title: "The Mistbrewer" %>
+  </div>
+
+  <p>Enjoy the relaxing visual design and soothing piano melodies as you navigate your way through the game.</p>
+
+  <h3>Features</h3>
+
+  <ul>
+    <li><strong>Accessibility and Depth:</strong> Add reagents to your brew and combine them in groups of three to evolve them and discover new reagents. The game's intuitive approach conceals a strategic depth that unveils itself with the addition of new ingredients.</li>
+
+    <li><strong>Unique Active Skills:</strong> Use three unique active skills to devise strategies and unlock challenging situations.</li>
+
+    <li><strong>Passive Talents:</strong> Explore dozens of passive talents that will fundamentally change your gameplay style, leading to an even more varied experience.</li>
+
+    <li><strong>Story Mode:</strong> Progress at your own pace through 10 captivating chapters. Each chapter offers an opportunity to hone your skills and understand the game mechanics better.</li>
+
+    <li><strong>Adventure+:</strong> After completing the story mode, accept a new challenge. This harder reprise of the story offers an increasing challenge with each new playthrough. Every victory unlocks a higher difficulty level, ensuring limitless replayability.</li>
+
+    <li><strong>Endless Mode:</strong> Play as long as you like with the Endless mode, where your endurance is your only limit. Keep track of your progress with persistent scores.</li>
+
+    <li><strong>A Relaxing Universe:</strong> Lose yourself in the world of The Mistbrewer, characterized by soothing graphics and gentle piano melodies. Ambient animations further enrich this calm and enveloping universe.</li>
+
+    <li><strong>Replayability:</strong> Between the Story mode, Adventure +, and Endless, The Mistbrewer offers hours of thoughtful and relaxing entertainment. Each game mode provides a new way to stimulate your strategic mind.</li>
+  </ul>
+
+  <p>Immerse yourself in the nebulous and tranquil world of The Mistbrewer.</p>
+
+  <div class="visual">
+    <%= image_tag "mistbrewer_visual_end.png", alt: "The Mistbrewer", title: "The Mistbrewer" %>
+  </div>
+
+  <h3>Current State of the Game</h3>
+
+  <p>The Mistbrewer is currently in <strong>alpha</strong>, with only the <strong>first three chapters</strong> of Story mode available. We are working diligently to expand the game content and improve its performance.</p>
+
+  <p>In the coming weeks, we plan to introduce <strong>three additional chapters</strong> and incorporate the passive talents mechanic into the game. The main goal of this alpha version is to solidify the overall game feel, ensuring the engine runs smoothly and is free of bugs.</p>
+
+  <p>If you're interested in helping us make The Mistbrewer the best it can be, please join our Discord community. You'll find a link there to access the playable alpha version of the game.</p>
+
+  <p>We appreciate your feedback and thank you for your support in shaping the development of <strong>The Mistbrewer</strong>.</p>
+
+  <div class="join_the_alpha">
+    <%= link_to "https://discord.gg/R7WSDkXh4K", target: "_blank", class: "button" do %>
+      Join us on discord to play<br><strong>The Mistbrewer</strong>
+    <% end %>
+  </div>
+</section>
